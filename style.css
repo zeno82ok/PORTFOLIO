@@ -4,6 +4,9 @@ body{
     box-sizing: border-box;
     background-color: black;
 }
+
+/* HEADER CSS BEGIN */
+
 .nav{
     display: flex;
     background-color:black;
@@ -39,6 +42,8 @@ span{
     list-style: none;
     align-items: center;
 }
+
+/* HEADER CSS CLOSE */
 
 /* FOOTER CSS START*/
 
@@ -99,6 +104,9 @@ span{
 }
 
 /* FOOTER CSS CLOSE  */
+
+/* INDEX BODY BEGINS */
+
 .container{
     display:flex;
     justify-content: space-between;
@@ -452,7 +460,105 @@ p span.cursor.typing {
   }
 }
 
+
+
 /* GLOWING CV BUTTON CLOSE */
+
+/* INDEX BODY CLOSE */
+
+
+
+ /* CONTACT BODY BEGINS */
+  
+  .contact-container{
+    display: block;
+    margin: 20px auto;
+    height: 500px;
+    width: 650px;
+    background-color: goldenrod;
+    border-radius: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 30px 0px rgb(255, 255, 255);
+  }
+  .contact-h1{
+    color: rgba(0,0,0,80%);
+    font-family: sans-serif;
+    padding-top: 20px;
+  }
+  textarea{
+    border-radius: 10px;
+    font-size: 25px;
+    width: 80%;
+  }
+.submit-btn{
+  background-color: rgba(228, 25, 22, 50%);
+  border-radius: 20px;
+  margin: 10px auto;
+  width: 20%;
+  height: 40px;
+  color: white;
+  font-weight: 800;
+  font-family: sans-serif;
+  box-shadow: rgba(45, 125, 98, 50%);
+  
+}
+.form-box{
+  width: 80%;
+  height: 45px;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-size: 24px;
+}
+.or{
+  margin: 0 auto;
+  font-weight: 900;
+  color: white;
+  padding: 0 20px;
+  padding: 0 20px;
+  background-color: black;
+}
+.mail-id{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* CONTACT BODY CLOSE */
+
+
+/* CERTIFICATE OPEN  */
+/* .certificate-container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+} */
+.certificate-img{
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.Credendial-btn{
+
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: goldenrod;
+  color: white;
+  text-decoration: none;
+  border-radius: 18px;
+}
+
+
+
+
+/* CERTIFICATE CLOSE  */
+
 
 /* RESPONSIVE BEGIN */
 
@@ -534,8 +640,49 @@ p span.cursor.typing {
       padding-left: 90px;
   }
 
+
+
+  /* contact responsive start */
+
+.contact-container{
+  height: 500px;
+  margin: 50px 200px 50px 120px;
+}
+.contact-h1{
+width: 100%;
+  font-size: 30px;
+  margin:10px 0;
+}/* contact responsive start */
+
+.contact-container{
+  height: 500px;
+  margin: 50px 200px 50px 120px;
+}
+.contact-h1{
+width: 100%;
+  font-size: 30px;
+  margin:10px 0;
 }
 
 
+/* CERTIFICATE OPEN */
+
+.certificate-img{
+  width: 700px;
+  margin-left: 90px;
+}
+.Credendial-btn{
+  margin: 10px 80%;
+}
+
+/* CERTIFICATE CLOSE  */
+
+
+
+
+
+
+
+}
 
 /* RESPONSIVE CLOSE */
