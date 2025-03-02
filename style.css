@@ -502,6 +502,7 @@ p span.cursor.typing {
   font-family: sans-serif;
   box-shadow: rgba(45, 125, 98, 50%);
   
+  
 }
 .form-box{
   width: 80%;
@@ -509,6 +510,7 @@ p span.cursor.typing {
   margin: 10px auto;
   border-radius: 10px;
   font-size: 24px;
+  border: none;
 }
 .or{
   margin: 0 auto;
@@ -552,6 +554,10 @@ p span.cursor.typing {
   color: white;
   text-decoration: none;
   border-radius: 18px;
+}
+.Credendial-btn:hover{
+  background-color: rgba(255, 0, 0,50%);
+  color: black;
 }
 
 
@@ -676,10 +682,6 @@ width: 100%;
 }
 
 /* CERTIFICATE CLOSE  */
-
-
-
-
 
 
 
